@@ -1,6 +1,6 @@
 # GBM_immune_microenvironment
 
-R script implementing regression analysis to estimate the proportion of cells from mixture gene expression data. Analysis is based on reference expression profiles. 
+R script implementing regression analysis to estimate the proportion of cells from mixture gene expression data. Analysis is based on reference expression profiles and linear regression with Elastic net regularization is used. 
 
 Usage
 -----
