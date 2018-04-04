@@ -14,7 +14,7 @@ The value of Elastic-net mixing parameter alpha can be changed. Default value fo
 proportions <- regressionAnalysis(mixture = myMixture, reference_cells = myReference, alpha = 0.1)
 ```
 
-`proportions` contains the estimated relative cell proportions in each mixture sample present in the matrix `myMixture`.
+`proportions` contains the estimated relative cell proportions for each mixture sample present in the matrix `myMixture`.
 
 Contact information
 -------------------
