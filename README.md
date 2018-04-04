@@ -16,6 +16,10 @@ proportions <- regressionAnalysis(mixture = myMixture, reference_cells = myRefer
 
 `proportions` contains the estimated relative cell proportions for each mixture sample present in the matrix `myMixture`.
 
+Data
+-----
+Directory `data` contains normalized example data (Abbas et al. PLoS One. 4:e6098, 2009). The file GSE11058_mixtures.txt contains the cell line mixtures and the file GSE11058_reference_cells.txt contains reference cell types (Jurkat, IM9, Raji, THP1, median sample).
+
 Contact information
 -------------------
 
