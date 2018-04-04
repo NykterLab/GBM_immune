@@ -10,9 +10,18 @@
 # source('regressionAnalysis_fun.R')
 # proportions <- regressionAnalysis(mixture, reference_cells, alpha)
 #
-# 
+# Parameters: 
+# mixture = matrix containing normalized gene expression
+# of mixture samples. Columns of the matrix contains samples
+# and rows of the matrix contains genes used in the analysis.
 #
+# reference_cells = matrix containing normalized gene expression
+# of reference cells. Columns of the matrix contains samples
+# and rows of the matrix contains genes used in the analysis. 
 #
+# alpha = elastic-net mixing paramter. Value can be set from
+# range [0, 1]. alpha = 1 is the lasso penalty, and alpha = 0
+# is the ridge penalty
 #
 
 # Function for regression analysis
